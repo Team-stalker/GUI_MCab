@@ -1,0 +1,9 @@
+C:\Users\User\Desktop\project (C#,ASM,C++)\Compress\Compress\bin\Release\Compress.exe
+C:\Users\User\Desktop\project (C#,ASM,C++)\Compress\Compress\bin\Release\Compress.pdb
+C:\Users\User\Desktop\project (C#,ASM,C++)\Compress\Compress\obj\Release\Compress.Form1.resources
+C:\Users\User\Desktop\project (C#,ASM,C++)\Compress\Compress\obj\Release\Compress.Properties.Resources.resources
+C:\Users\User\Desktop\project (C#,ASM,C++)\Compress\Compress\obj\Release\Compress.csproj.GenerateResource.cache
+C:\Users\User\Desktop\project (C#,ASM,C++)\Compress\Compress\obj\Release\Compress.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\project (C#,ASM,C++)\Compress\Compress\obj\Release\Compress.exe
+C:\Users\User\Desktop\project (C#,ASM,C++)\Compress\Compress\obj\Release\Compress.pdb
+C:\Users\User\Desktop\project (C#,ASM,C++)\Compress\Compress\obj\Release\Compress.csprojAssemblyReference.cache

@@ -1,0 +1,17 @@
+C:\Users\User\source\repos\Compress\Compress\bin\Debug\Compress.exe
+C:\Users\User\source\repos\Compress\Compress\bin\Debug\Compress.pdb
+C:\Users\User\source\repos\Compress\Compress\obj\Debug\Compress.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Compress\Compress\obj\Debug\Compress.Form1.resources
+C:\Users\User\source\repos\Compress\Compress\obj\Debug\Compress.Properties.Resources.resources
+C:\Users\User\source\repos\Compress\Compress\obj\Debug\Compress.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Compress\Compress\obj\Debug\Compress.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Compress\Compress\obj\Debug\Compress.exe
+C:\Users\User\source\repos\Compress\Compress\obj\Debug\Compress.pdb
+C:\Users\User\Desktop\project (C#,ASM,C++)\Compress\Compress\bin\Debug\Compress.exe
+C:\Users\User\Desktop\project (C#,ASM,C++)\Compress\Compress\bin\Debug\Compress.pdb
+C:\Users\User\Desktop\project (C#,ASM,C++)\Compress\Compress\obj\Debug\Compress.Form1.resources
+C:\Users\User\Desktop\project (C#,ASM,C++)\Compress\Compress\obj\Debug\Compress.Properties.Resources.resources
+C:\Users\User\Desktop\project (C#,ASM,C++)\Compress\Compress\obj\Debug\Compress.csproj.GenerateResource.cache
+C:\Users\User\Desktop\project (C#,ASM,C++)\Compress\Compress\obj\Debug\Compress.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\project (C#,ASM,C++)\Compress\Compress\obj\Debug\Compress.exe
+C:\Users\User\Desktop\project (C#,ASM,C++)\Compress\Compress\obj\Debug\Compress.pdb
