@@ -16,7 +16,6 @@ namespace Compress
             InitializeComponent();
         }
         bool Type = false;
-        // Есть ошибки при чтении, когда имя файла содержит точки. Исправлять не стал, кому нужно, исправят сами.
         private void pathCmp_Click(object sender, EventArgs e)
         {
             OpenFileDialog ImportFile = new OpenFileDialog();
@@ -31,7 +30,7 @@ namespace Compress
         {
             OpenFileDialog ImportFile = new OpenFileDialog();
             ImportFile.DefaultExt = "*.*";
-            ImportFile.Filter = "Выберите файл|*.cab";
+            ImportFile.Filter = "Выберите файл|*.cab*";
             if (ImportFile.ShowDialog() == DialogResult.OK && ImportFile.FileName.Length > 0)
             {
                 LinkB.Text = ImportFile.FileName;
@@ -82,9 +81,13 @@ namespace Compress
         private void Thread_DoWork(object sender, DoWorkEventArgs e)
         {
             if (Type)
-                StartArgs("/C makecab " + LinkA.Text + " /L " + Environment.CurrentDirectory + "\\");     
+            {
+                StartArgs("/C makecab " + LinkA.Text + " /L " + Environment.CurrentDirectory + "\\");
+            }
             else
+            {
                 StartArgs("/C expand " + LinkB.Text + " -I");
+            }
         }
         private void Thread_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
@@ -119,10 +122,12 @@ namespace Compress
         }
         private void Compress()
         {
+            if (LinkA.Text.Length == 0)
+                return;
             string filefound = "";
             // Запомнить данные файла
-            string savefilename = LinkA.Text.Split('.')[0];
-            string savefileformat = LinkA.Text.Split('.')[1];
+            string savefilename = LinkA.Text.Substring(0, LinkA.Text.LastIndexOf('.'));
+            string savefileformat = LinkA.Text.Split('.')[LinkA.Text.Count(x => x == '.')];
             int count = savefilename.Count(x => x == '\\');
             savefilename = savefilename.Split('\\')[count];
             string fileinfo = savefilename + "." + savefileformat[0] + savefileformat[1] + "_"; // имя файла после сжатия
